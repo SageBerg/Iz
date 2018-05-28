@@ -1,0 +1,15 @@
+body {
+  background-color: #faa;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 150%;
+  margin: auto;
+  padding: 0;
+}
+.letter-option {
+  margin-bottom: 0px;
+  display: inline-block;
+}
+#game-container {
+  padding: 32px;
+}
