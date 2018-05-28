@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>Iz</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
   <div id="game-container">
-    <p id='outcome-text'>A woman glairs at you from the other end of the bar.</p>
-    <div onclick='take_action_and_draw("a")'>
+    <p id='outcome-text'>A woman glares at you from the other end of the bar.</p>
+    <div class="option-container" onclick='take_action_and_draw("a")'>
       <p class="letter-option">a.&nbsp;</p>
       <span id='a'>go talk to her</span>
     </div>
-    <div onclick='take_action_and_draw("b")'>
+    <br>
+    <div class="option-container" onclick='take_action_and_draw("b")'>
       <p class="letter-option">b.&nbsp;</p>
       <span id='b'>buy a drink</span>
     </div>
-    <div onclick='take_action_and_draw("c")'>
+    <br>
+    <div class="option-container" onclick='take_action_and_draw("c")'>
       <p class="letter-option">c.&nbsp;</p>
       <span id='c'>leave in a huff</span>
     </div>
-    <div onclick='take_action_and_draw("d")'>
+    <br>
+    <div class="option-container" onclick='take_action_and_draw("d")'>
       <p class="letter-option">d.&nbsp;</p>
       <span id='d'>check your phone</span>
     </div>

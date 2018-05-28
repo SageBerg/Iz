@@ -3,12 +3,18 @@ body {
   color: #fff;
   font-family: sans-serif;
   font-size: 150%;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 .letter-option {
-  margin-bottom: 0px;
+  cursor: pointer;
   display: inline-block;
+  margin-bottom: 0px;
+}
+.option-container {
+  cursor: pointer;
+  display: inline-block;
+  padding-bottom: 20px;
 }
 #game-container {
   padding: 32px;
