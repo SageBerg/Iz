@@ -25,10 +25,10 @@ outcomes =
     "change_game_state": what_cocktail,
     "description": "What cocktail would like?",
     "options": {
-      "a":"Cosmopolitan",
-      "b": "Martini",
-      "c": "I can't decide",
-      "d": "Molotov Cocktail"
+      "a": "cosmopolitan",
+      "b": "martini",
+      "c": "i_cant_decide_what_cocktail",
+      "d": "molotov"
     }
   }
 }

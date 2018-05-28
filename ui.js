@@ -16,6 +16,6 @@ function draw_outcome_description(outcome) {
 
 function draw_option_descriptions(options) {
   for (var letter_option in options) {
-    document.getElementById(letter_option).innerHTML = options[letter_option]
+    document.getElementById(letter_option).innerHTML = option_names_to_descritiops[options[letter_option]]
   }
 }
